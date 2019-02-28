@@ -1,0 +1,43 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.navbar {
+  border-bottom: #363636 3px solid;
+  opacity: 0.8;
+}
+
+#home-section {
+  background: url(../img/odin.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 1000px;
+}
+
+#home-section .dark-overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 1000px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#home-section .home-inner {
+  padding-top: 100px;
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+
+#home-section .card-form {
+  opacity: 0.8;
+}
+
+#explore-section .fas {
+  background: #333;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
